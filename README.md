@@ -1,11 +1,16 @@
-# Start your own "Can of Books" App
+# Start your own "Exam App"
 
-This repository has starter code to begin work on creating your own online bookshelf.
-
-## What can books do?
-
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+This repository has starter code to begin work on creating your own online webapp.
 
 ## Use this template
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
+1. Clone this repo to your own account with the green "Use this template" button. Now you are ready to start adding features!
+
+2. Run the command ```npm start``` to install all the dependencies in your package.json
+
+3. Create a new application in Auth0 for the exam's webapp
+
+4. When you seed the data for the first time, make sure to add your instructor's emails as a user 
+   r.alquran@ltuc.com && quraanrazan282@gmail.com in order to be able to login to your webapp and do the CRUD operations
+
+
