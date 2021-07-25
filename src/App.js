@@ -3,6 +3,7 @@ import Header from './Header';
 import Profile from './Profile';
 import Login from './Login';
 import MyFavorites from './MyFavorites';
+import AllDataAPI from './AllDataAPI'
 import Footer from './Footer';
 import { withAuth0 } from '@auth0/auth0-react';
 import {
@@ -19,14 +20,20 @@ class App extends React.Component {
         <Router>
             <Header />
             <Switch>
+
               <Route exact path="/">
-                {/* TODO: if the user is logged in, render the `MyFavorites` component, if they are not, render the `Login` component */}
                 {this.props.auth0.isAuthenticated ? <MyFavorites /> : <Login />}
               </Route>
-              {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
+
+              <Route path="/getAPIData">
+                <AllDataAPI/>
+              </Route>
+
               <Route path="/profile">
                 <Profile/>
               </Route>
+
+
             </Switch>
             <Footer />
         </Router>
