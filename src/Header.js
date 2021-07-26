@@ -12,9 +12,9 @@ class Header extends React.Component {
     return(
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Navbar.Brand>301 Exam</Navbar.Brand>
-        <Link to="/">Home </Link>
-        <Link to="/getAPIData">API-Data</Link>
+        <Link to="/">My-Fav </Link>
         <Link to="/profile">Profile</Link>
+        <Link to="/getAPIData">API-Data</Link>
        
         {this.props.auth0.isAuthenticated ? <LogoutButton /> : <LoginButton />}
       </Navbar>

@@ -25,15 +25,14 @@ class App extends React.Component {
                 {this.props.auth0.isAuthenticated ? <MyFavorites /> : <Login />}
               </Route>
 
-              <Route path="/getAPIData">
-                <AllDataAPI/>
-              </Route>
-
               <Route path="/profile">
                 <Profile/>
               </Route>
 
-
+              <Route path="/getAPIData">
+                <AllDataAPI/>
+              </Route>
+              
             </Switch>
             <Footer />
         </Router>
