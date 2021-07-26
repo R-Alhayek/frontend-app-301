@@ -10,7 +10,7 @@ This repository has starter code to start working on creating your own exam weba
 
 3. Create a new application in Auth0 for the exam's webapp
 
-4. When you seed the data for the first time, make sure to add your instructor's emails as a user 
-   r.alquran@ltuc.com && quraanrazan282@gmail.com in order to be able to login to your webapp and do the CRUD operations
+4. When you seed the data for the first time, make sure to add your instructor email as user
+   quraanrazan282@gmail.com in order to be able to login with your webapp and do the CRUD operations
 
 
