@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './MyFavorites.css';
+import { withAuth0 } from '@auth0/auth0-react';
 
 class MyFavorites extends React.Component {
   render() {
@@ -15,4 +16,5 @@ class MyFavorites extends React.Component {
   }
 }
 
-export default MyFavorites;
+export default withAuth0(MyFavorites);
+

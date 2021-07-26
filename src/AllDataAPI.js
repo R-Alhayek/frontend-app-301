@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { withAuth0 } from '@auth0/auth0-react';
+
 
 class AllDataAPI extends Component {
     render() {
@@ -11,4 +13,4 @@ class AllDataAPI extends Component {
     }
 }
 
-export default AllDataAPI;
+export default withAuth0(AllDataAPI);
